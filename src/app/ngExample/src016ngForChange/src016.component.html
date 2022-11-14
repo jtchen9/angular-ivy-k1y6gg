@@ -1,0 +1,8 @@
+<button pButton (click)="onAdd()">Add</button>
+<ul>
+  <li *ngFor="let course of courses">
+    {{ course.name }}
+    <button pButton (click)="onDelete(course)" class="mx-2 p-0">Del</button>
+    <button pButton (click)="onUpdate(course)" class="p-0">Update</button>
+  </li>
+</ul>

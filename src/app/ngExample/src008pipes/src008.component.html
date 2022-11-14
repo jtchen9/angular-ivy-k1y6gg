@@ -1,0 +1,7 @@
+<h2>
+  {{ course.title | uppercase }} <br />
+  {{ course.students | number }} <br />
+  {{ course.rating | number: "2.1-1" }} <br />
+  {{ course.price | currency: "TWD":true:"2.3-3" }} <br />
+  {{ course.releaseDate | date: "shortDate" }} <br />
+</h2>

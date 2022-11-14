@@ -1,0 +1,13 @@
+#body2 {
+  height: 100%;
+  background-color: green;
+  position: relative;
+}
+#drag {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  cursor: all-scroll;
+}

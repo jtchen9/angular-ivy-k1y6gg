@@ -1,0 +1,8 @@
+<input
+  type="checkbox"
+  id="showChild"
+  name="showChild"
+  [(ngModel)]="showChild"
+/>
+
+<app-child-component *ngIf="showChild"></app-child-component>

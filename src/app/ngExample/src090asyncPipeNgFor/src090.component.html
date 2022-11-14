@@ -1,0 +1,5 @@
+<div *ngIf="hounds | async as breeds">
+  <ul>
+    <li *ngFor="let breed of breeds.message">{{ breed }}</li>
+  </ul>
+</div>

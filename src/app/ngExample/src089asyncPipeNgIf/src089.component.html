@@ -1,0 +1,5 @@
+<!-- {{ obsValue | async}} -->
+<div *ngIf="obsValue | async as value; else elseBlock">
+  <p>{{ value }}</p>
+</div>
+<ng-template #elseBlock> Observable is loading. Please wait </ng-template>
